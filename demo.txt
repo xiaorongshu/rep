@@ -10,3 +10,10 @@
     简便的方式：git tadd .  一次性的吧所有修改的文件添加到门口了
     git commit - m
     查询：git status
+
+    二：
+    git branch dev分支名，只是用来做代码备份，不共享
+    git checkout dev告诉管理员我要分支房间，剩下就是和之前的一样操作放过去，告诉管理员之类的，到我做好了想
+    放到主分支
+    先切换到主分支git checkout master
+    合并git merge dev
