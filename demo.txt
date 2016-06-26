@@ -17,3 +17,10 @@
     放到主分支
     先切换到主分支git checkout master
     合并git merge dev
+
+    三：
+      新建一个.gitignore
+      目录是指03开始的，不是盘符开始
+      简便的方式：git tadd .  一次性的吧所有修改的文件添加到门口了
+      git commit - m
+      查询：git status
