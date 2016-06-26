@@ -1,0 +1,12 @@
+    一：
+    git log 查询提交日志，每次提交的都有记录，最上面的是最近的提交。
+    git reset--hard （6a1246kd）得到每一次的版本号，唯一的,随机的
+    git reset--hard Head最近提交的代码拿出来覆盖掉，版本回退
+    Head表示最近的一次提交的代码
+    git reset--hard Head~1   前几次提交就写什么数字
+    git reflog每一的提交的版本号
+    新建一个.gitignore
+    目录是指03开始的，不是盘符开始
+    简便的方式：git tadd .  一次性的吧所有修改的文件添加到门口了
+    git commit - m
+    查询：git status
